@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <linearGradient x1="0.5" y1="0.0354272053" x2="0.5" y2="1" id="gradient_1">
+      <stop offset="0" stop-color="#FF955D" />
+      <stop offset="1" stop-color="#FF4CAB" />
+    </linearGradient>
+    <path d="M0 0L59.9908 0L59.9908 2.95041L0 2.95041L0 0Z" transform="translate(0.009183673 0.02823529)" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group">
+    <path d="M0.140885 14.0326C1.15706 6.76564 7.56384 0 16.433 0C25.4696 0 32.9883 7.26692 33 16.3324C33 20.4183 31.4703 24.3697 28.5414 27.4282C25.8642 30.2299 24.4658 34.194 24.4658 38.5248L24.4536 45.1554C24.4536 47.8346 22.2899 50 19.6127 50L13.373 50C10.6957 50 8.53205 47.8346 8.53205 45.1554L8.5437 38.5248C8.5437 34.3163 7.01399 30.2299 4.21649 27.1714C1.03738 23.5991 -0.492935 18.877 0.140885 14.0326ZM21.9194 38.5248C21.9194 33.5451 23.581 28.9574 26.7607 25.6422C29.1753 23.0855 30.4541 19.7701 30.4541 16.3324C30.4541 8.8087 24.2142 2.55734 16.4446 2.55734C9.02168 2.55734 3.46358 8.3068 2.56709 14.4237C2.0652 18.5097 3.21271 22.4619 6.00947 25.5203C9.18933 29.0925 11.1018 33.802 11.1018 38.5248L11.1018 39.6746L21.9194 39.6746L21.9194 38.5248ZM22.0272 45.1554C22.0272 46.4279 21.0112 47.4552 19.7318 47.4552L13.4925 47.4552C12.2138 47.4552 11.1976 46.4398 11.1976 45.1554L11.1976 42.2194L22.015 42.2194L22.015 45.1554L22.0272 45.1554Z" transform="translate(13 10)" id="Fill-1" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+    <path d="M0 6L3 6L3 0L0 0L0 6Z" transform="translate(28 0)" id="Fill-2" fill="url(#gradient_1)" stroke="none" />
+    <path d="M0 4.2123L1.73913 6L6 1.7883L4.2489 0L0 4.2123Z" transform="translate(45 8)" id="Fill-3" fill="url(#gradient_1)" stroke="none" />
+    <g id="Group-7" transform="translate(0 27)">
+      <path d="M0 0L59.9908 0L59.9908 2.95041L0 2.95041L0 0Z" transform="translate(0.009183673 0.02823529)" id="Clip-5" fill="none" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <path d="M0 2.95041L6.39214 2.95041L6.39214 0L0 0L0 2.95041Z" transform="translate(53.60786 0.02823529)" id="Fill-4" fill="url(#gradient_1)" stroke="none" />
+        <path d="M0 2.95041L6.38296 2.95041L6.38296 0L0 0L0 2.95041Z" transform="translate(0.009183673 0.02823529)" id="Fill-6" fill="url(#gradient_1)" stroke="none" />
+      </g>
+    </g>
+    <path d="M1.7511 0L0 1.7877L4.26087 6L6 4.2117L1.7511 0Z" transform="translate(8 8)" id="Fill-8" fill="url(#gradient_1)" stroke="none" />
+  </g>
+</svg>

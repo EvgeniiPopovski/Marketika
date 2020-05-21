@@ -23,8 +23,12 @@
                         of custom pages and useful features
                     </div>
                     <div class="section-header-wrapper__form">
-                        <input type="text" class="section-header-input" placeholder="Your Name">
-                        <input type="text" class="section-header-input" placeholder="Your Email">
+                        <div class="input">
+                            <input type="text" class="section-header-input" placeholder="Your Name">
+                        </div>
+                        <div class="input">
+                            <input type="text" class="section-header-input" placeholder="Your Email">
+                        </div>
                         <button type="submit" class="primary-button">Get Started</button>
                     </div>
                 </div>
@@ -57,17 +61,60 @@
                     <img src="./img/video.png" alt="video" class="video">
                 </div>
             </div>
-            <div class="section-advantages-ideas"> ИДЕИ </div>
+            <div class="section-advantages-ideas">
+                <div class="section-advantages-ideas__item">
+                    <div class="section-advantages-ideas__item_icon">
+                        <img src="./img/bulb.svg" alt="bulb">
+                    </div>
+                    <div class="section-advantages-ideas__item_subtitle">Start your marketing</div>
+                    <div class="section-advantages-ideas__item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam.
+                    </div>
+                </div>
+                <div class="section-advantages-ideas__item">
+                    <div class="section-advantages-ideas__item_icon">
+                        <img src="./img/bulb.svg" alt="bulb">
+                    </div>
+                    <div class="section-advantages-ideas__item_subtitle">Find your favourite niche</div>
+                    <div class="section-advantages-ideas__item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam.
+                    </div>
+                </div>
+                <div class="section-advantages-ideas__item">
+                    <div class="section-advantages-ideas__item_icon">
+                        <img src="./img/bulb.svg" alt="bulb">
+                    </div>
+                    <div class="section-advantages-ideas__item_subtitle">Start your marketing</div>
+                    <div class="section-advantages-ideas__item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam.
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     </section>
     <!--/ Section Advantages -->
 
     <!-- Section Founder -->
-    <section class="section-outter section-founder">
-        section founder
+    <section class="section-outter-founder">
         <div class="section-inner">
-            <div class="section-header__logo">
+            <div class="section-founder__image">
+                <img src="./img/founder.png" alt="Founder">
+            </div>
+            <div class="section-founder__quote">
+                <div class="section-founder__quote_text">
+                    Content should be a journey. It should hit users at all the stages: awareness, consideration, and
+                    decision. If your content doesn’t continue to inform and be relevant, users will get turned off. A
+                    pipeline is only as good as the quality and readiness of leads.
+                </div>
+                <div class="section-founder__quote_autor">
+                    <span class="section-founder__quote_autor-name">Andrew Bichel </span>
+                    <span class="section-founder__quote_autor-place">Founder, Marketing</span>
+                </div>
             </div>
         </div>
 
@@ -76,9 +123,45 @@
 
     <!-- Section Plans -->
     <section class="section-outter section-plans">
-        section Plans
         <div class="section-inner">
-            <div class="section-inner-content"></div>
+            <div class="section-plans-cover">
+                <div class="section-plans__header">
+                    <div class="section-plans__header_title">Choose your suitable plans</div>
+                    <div class="section-plans__header_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </div>
+                </div>
+                <div class="section-plans__content">
+                    <div class="section-plans__plan active">
+                        <div class="section-plans__plan_title">
+                            FREE
+                        </div>
+                        <div class="section-plans__plan_price">
+                            <span class="plan-price">$0</span>
+                            <!-- <span class="proce-postfix"></span> -->
+                        </div>
+                        <div class="section-plans__plan_description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </div>
+                        <button class="section-plans__plan_button">Get Started</button>
+                    </div>
+                    <div class="section-plans__plan">
+                        <div class="section-plans__plan_title">
+                            PREMIUM
+                        </div>
+                        <div class="section-plans__plan_price">
+                            <span class="plan-price">$39</span>
+                            <!-- <span class="proce-postfix"></span> -->
+                        </div>
+                        <div class="section-plans__plan_description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </div>
+                        <button class="section-plans__plan_button-secondary">Get Started</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -86,9 +169,13 @@
 
     <!-- Section Get Started -->
     <section class="section-outter section-getStarted">
-        section Get Started
         <div class="section-inner">
-            <div class="section-header__logo">
+            <div class="section-getStarted__header">It’s free, Get started today</div>
+            <div class="section-getStarted__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </div>
+            <div class="section-getStarted__button">
+                <button class="section-getStarted__button-secondary">Get Started</button>
             </div>
         </div>
 
@@ -97,12 +184,22 @@
 
     <!-- Section Footer -->
     <section class="section-outter section-footer">
-        section Footer
         <div class="section-inner">
-            <div class="section-header__logo">
-            </div>
+            <div class="section-footer__logo">Marketika</div>
+            <ul class="section-footer__nav">
+                <li class="section-footer__nav_item">ABOUT US </li>
+                <li class="section-footer__nav_item">SERVICES</li>
+                <li class="section-footer__nav_item">FAQ</li>
+                <li class="section-footer__nav_item">BLOG</li>
+                <li class="section-footer__nav_item">CONTECT US</li>
+            </ul>
+            <ul class="section-footer__copyrigth">
+                <li class="section-footer__copyrigth_item">Copyright © Sepra 2018 All Right Resereved</li>
+                <li class="section-footer__copyrigth_item">Privacy Policy</li>
+                <li class="section-footer__copyrigth_item">Terms Of Services</li>
+                <li class="section-footer__copyrigth_item">Security</li>
+            </ul>
         </div>
-
     </section>
     <!--/ Section Footer -->
 </body>
